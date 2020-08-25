@@ -1,53 +1,45 @@
 <template lang="pug">
-v-app(
-  :dark='$store.state.dark',
-  :class='$store.state.dark ? "grey darken-4" : "grey lighten-4"'
-)
-  cookie-law(
-    theme='blood-orange',
-    :buttonText='$t("cookieButton")',
-    :message='$t("cookieMessage")'
-  )
-  Navbar
-  Snackbar
-  v-main
-    router-view
+v-app
+  v-container.main-container
+    .max-width
+      GradientText {{ $t("mainTitle") }}
+      MainSubtitle {{ $t("mainSubtitle") }}
+      GradientText(:smaller='true') {{ $t("rulesTitle") }}
+      RuleAndImage(:index='0')
+      RuleList(:cardIndexArray='[1, 2, 3, 4]')
+      RuleAndImage(:index='5', :left='true')
+      RuleList(:cardIndexArray='[6, 7, 8, 9, 10, 11, 12]')
+      RuleAndImage(:index='13')
+      RuleList(:cardIndexArray='[14, 15, 16]')
+      .made-by(v-html='$t("madeBy")')
+      v-btn(icon, text, @click='setLanguage("en")') 🇺🇸
+      v-btn(icon, text, @click='setLanguage("ru")') 🇷🇺
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Navbar from '@/components/Navbar.vue'
-import Snackbar from '@/components/Snackbar.vue'
-import store from '@/store'
-import CookieLaw from 'vue-cookie-law'
 import { i18n } from '@/plugins/i18n'
 import Component from 'vue-class-component'
+import GradientText from '@/components/GradientText.vue'
+import MainSubtitle from '@/components/MainSubtitle.vue'
+import RuleAndImage from '@/components/RuleAndImage.vue'
+import RuleList from '@/components/RuleList.vue'
 import { namespace } from 'vuex-class'
 
 const AppStore = namespace('AppStore')
-const SnackbarStore = namespace('SnackbarStore')
 
-@Component({ components: { Navbar, CookieLaw, Snackbar } })
+@Component({
+  components: {
+    GradientText,
+    MainSubtitle,
+    RuleAndImage,
+    RuleList,
+  },
+})
 export default class App extends Vue {
-  @AppStore.State dark!: boolean
-  @SnackbarStore.Mutation hideSnackbar!: () => void
-
-  get style() {
-    return {
-      'background-color': this.dark ? '#303030' : '#fafafa',
-    }
-  }
+  @AppStore.Mutation setLanguage!: (language: string) => void
 
   created() {
-    this.$vuetify.theme.dark = this.dark
-
-    const query = document.querySelector('meta[name="theme-color"]')
-    if (query) {
-      query.setAttribute('content', this.dark ? '#303030' : '#fafafa')
-    }
-
-    this.hideSnackbar()
-
     document.title = i18n.t('title') as string
   }
 
@@ -58,3 +50,47 @@ export default class App extends Vue {
   }
 }
 </script>
+
+<style>
+.main-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 24px !important;
+}
+.max-width {
+  max-width: 1000px;
+}
+.top-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.made-by {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .made-by {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+</style>

@@ -29,10 +29,10 @@
     "vuex-persistedstate": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "prettier/prettier#cd2b8a32b5ef77eb0047e7517b1ea22d605a094a",
     "@prettier/plugin-pug": "^1.4.4",
     "@vue/cli-plugin-typescript": "^4.5.3",
     "@vue/cli-service": "^4.5.3",
+    "prettier": "prettier/prettier#cd2b8a32b5ef77eb0047e7517b1ea22d605a094a",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.3",
     "typescript": "^3.9.7",
