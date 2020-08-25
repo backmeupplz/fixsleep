@@ -1,18 +1,21 @@
-# Frontend code template
+# [Fix Sleep](https://fixsleep.link) code
 
-This template to be used for frontend applications. Written in Vue.js with Vuetify and Vuex set up it is ready to be used. Facebook. Google and Telegram login is included.
+The website that contains rules about how to get better sleep.
 
 ## Project setup
+
 ```
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 yarn serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 yarn build
 ```
