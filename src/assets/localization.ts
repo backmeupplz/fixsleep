@@ -72,7 +72,7 @@ export const messages = {
         title: 'Приобретите простой трекер сна',
         description:
           'Попробуйте специальные мобильные приложения или фитнес-браслеты. Следите за сравнительным прогрессом улучшения сна.',
-        source: '',
+        source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5458149/',
       },
       {
         title: 'Поиграйтесь с высотой подушки',
@@ -187,7 +187,7 @@ export const messages = {
         title: 'Get a simple sleep tracker',
         description:
           'Try mobile apps and fitness bands. Track the relative progress of the sleep improvement.',
-        source: '',
+        source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5458149/',
       },
       {
         title: 'Play with the pillow height',
