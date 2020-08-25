@@ -112,7 +112,7 @@ export const messages = {
       },
     ],
     madeBy:
-      'Этот сайт вдохновлен <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">вот этой статьей</a>.',
+      'Этот сайт вдохновлен <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">вот этой статьей</a>. Код этого сайта <a href="https://github.com/backmeupplz/fixsleep">открыт</a>.',
   },
   en: {
     title: 'Fix sleep',
@@ -162,7 +162,7 @@ export const messages = {
       {
         title: 'Warm up the room to ~22° C before waking up',
         description:
-          'it is easier to fall asleep in a warm room. You can start the heater on the lowest setting after airing the room.',
+          'it is easier to wake up in a warm room. You can start the heater on the lowest setting after airing the room.',
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3427038/',
       },
       {
@@ -226,6 +226,6 @@ export const messages = {
       },
     ],
     madeBy:
-      'This page is inspired by <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">this blogpost</a>.',
+      'This page is inspired by <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">this blogpost</a>. Oh, and it is <a href="https://github.com/backmeupplz/fixsleep">open-source</a>.',
   },
 }
