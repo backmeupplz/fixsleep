@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "distribute": "vue-cli-service serve --mode development"
+    "distribute": "vue-cli-service serve --mode development",
+    "update": "yarn build && git add . && git commit -m 'update' && git push"
   },
   "dependencies": {
     "@types/node": "^14.6.0",
