@@ -192,7 +192,7 @@ export const messages = {
       {
         title: 'Play with the pillow height',
         description:
-          'Some heights can decrease snorring and improve sleep quality.',
+          'Some heights can decrease snoring and improve sleep quality.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/28127672/',
       },
       {
