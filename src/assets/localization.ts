@@ -35,7 +35,7 @@ export const messages = {
       {
         title: 'Примите горячий душ перед сном',
         description:
-          'Расширенные капиляры помогают охладить тело перед отходом в кровать.',
+          'Расширенные капилляры помогают охладить тело перед отходом в кровать.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/31102877/',
       },
       {
@@ -126,7 +126,7 @@ export const messages = {
       {
         title: "Don't try to rebuild your body overnight",
         description:
-          "It's better to take it slow and wake up 10 minutes earlier every day. Slow progress will get you there, rapid change in behavior never settles.",
+          "It's better to take it slow and wake up 10 minutes earlier every day. Slow progress will get you there, rapid change in behaviour never settles.",
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1125170/',
       },
       {
@@ -150,11 +150,11 @@ export const messages = {
       {
         title: 'Take a hot shower before going to bed',
         description:
-          'Expanding the capillaries will help cool down your body before going to sleep.',
+          'Expanding the capillaries will help down your body before going to sleep.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/31102877/',
       },
       {
-        title: 'Cool down the room to 17°-18° C before sleep',
+        title: 'Cooldown the room to 17°-18° C before sleep',
         description:
           'it is easier to fall asleep in a cold room. You can air the room before going to bed.',
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3427038/',
@@ -186,7 +186,7 @@ export const messages = {
       {
         title: 'Get a simple sleep tracker',
         description:
-          'Try mobile apps and fitness bands. Track the relative progress of the sleep improvement.',
+          'Try mobile apps and fitness bands. Track the relative progress of sleep improvement.',
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5458149/',
       },
       {
@@ -203,7 +203,7 @@ export const messages = {
       },
       {
         title: 'Do not exercise 2-3 hours before bed',
-        description: 'This can result in an increase of the cortisol levels.',
+        description: 'This can increase cortisol levels.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/30374942/',
       },
       {
@@ -226,6 +226,6 @@ export const messages = {
       },
     ],
     madeBy:
-      'This page is inspired by <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">this blogpost</a>. Oh, and it is <a href="https://github.com/backmeupplz/fixsleep">open-source</a>.',
+      'This page is inspired by <a href="https://blog.borodutch.com/waking-up-at-5am-is-easy/">this blog post</a>. Oh, and it is <a href="https://github.com/backmeupplz/fixsleep">open-source</a>.',
   },
 }
