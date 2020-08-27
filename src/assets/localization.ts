@@ -202,7 +202,7 @@ export const messages = {
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3227713/',
       },
       {
-        title: 'Do not excercise 2-3 hours before bed',
+        title: 'Do not exercise 2-3 hours before bed',
         description: 'This can result in an increase of the cortisol levels.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/30374942/',
       },
