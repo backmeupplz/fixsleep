@@ -29,7 +29,7 @@ export const messages = {
       {
         title: 'Включите черно-белый фильтр перед сном',
         description:
-          'Так умеют Андроид-девайсы. Смотреть мемы в черно-белом цвете менее приятно, поэтому мозг перестает этого хотеть перед сном.',
+          '"Bedtime mode" на Андроиде, "Color Filters" на iOS. Смотреть мемы в черно-белом цвете менее приятно, поэтому мозг перестает этого хотеть перед сном.',
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4734149/',
       },
       {
@@ -144,7 +144,7 @@ export const messages = {
       {
         title: 'Turn on the black and white filter before bed',
         description:
-          "It is available at least on the Android. Surfing memes in black and white isn't as pleasant, and your brain stops craving it before bed.",
+          '"Bedtime mode" on Android, "Color Filters" on iOS. Surfing memes in black and white isn\'t as pleasant, and your brain stops craving it before bed.',
         source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4734149/',
       },
       {
