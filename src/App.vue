@@ -2,6 +2,8 @@
 v-app
   v-container.main-container
     .max-width
+      v-btn(icon, text, @click='setLanguage("en")') 🇺🇸
+      v-btn(icon, text, @click='setLanguage("ru")') 🇷🇺
       GradientText {{ $t("mainTitle") }}
       MainSubtitle {{ $t("mainSubtitle") }}
       GradientText(:smaller='true') {{ $t("rulesTitle") }}
@@ -12,8 +14,6 @@ v-app
       RuleAndImage(:index='13')
       RuleList(:cardIndexArray='[14, 15, 16]')
       .made-by(v-html='$t("madeBy")')
-      v-btn(icon, text, @click='setLanguage("en")') 🇺🇸
-      v-btn(icon, text, @click='setLanguage("ru")') 🇷🇺
 </template>
 
 <script lang="ts">
