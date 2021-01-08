@@ -42,7 +42,8 @@ export const messages = {
         title: 'Охладите комнату до 17°-18° C перед сном',
         description:
           'В прохладе проще уснуть. Можете просто проветрить комнату перед отходом ко сну.',
-        source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3427038/',
+        source:
+          'https://www.sleepfoundation.org/bedroom-environment/best-temperature-for-sleep',
       },
       {
         title: 'Нагрейте комнату до ~22° C перед пробуждением',
@@ -150,14 +151,15 @@ export const messages = {
       {
         title: 'Take a hot shower before going to bed',
         description:
-          'Expanding the capillaries will help down your body before going to sleep.',
+          'Expanding the capillaries will help to cool down your body before going to sleep.',
         source: 'https://pubmed.ncbi.nlm.nih.gov/31102877/',
       },
       {
         title: 'Cooldown the room to 17°-18° C before sleep',
         description:
           'it is easier to fall asleep in a cold room. You can air the room before going to bed.',
-        source: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3427038/',
+        source:
+          'https://www.sleepfoundation.org/bedroom-environment/best-temperature-for-sleep',
       },
       {
         title: 'Warm up the room to ~22° C before waking up',
