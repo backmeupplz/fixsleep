@@ -5,7 +5,7 @@ The website that contains rules about how to get better sleep.
 ## Project setup
 
 ```
-yarn install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
