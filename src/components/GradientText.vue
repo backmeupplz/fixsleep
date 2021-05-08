@@ -25,7 +25,7 @@ export default class GradientText extends Vue {
   font-size: 60px;
   line-height: 78px;
 
-  width: fit-content;
+  width: 100%;
 }
 @supports ((background-clip: text) or (-webkit-background-clip: text)) and
   ((text-fill-color: transparent) or (-webkit-text-fill-color: transparent)) {
