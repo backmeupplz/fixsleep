@@ -103,7 +103,7 @@ export const messages = {
           'Забудьте про переносы будильников и несколько будильников подряд',
         description:
           'На каждый раз, когда вы просыпаетесь по будильнику, на вашу сердечно-сосудистую систему приходится пик нагрузки. Не перегружайте.',
-        source: 'https://pubmed.ncbi.nlm.nih.gov/12531174/',
+        source: 'https://pubmed.ncbi.nlm.nih.gov/15732320/',
       },
       {
         title: 'Не пейте алкоголь после полудня',
@@ -218,7 +218,7 @@ export const messages = {
         title: 'Forget about the snooze button and setting multiple alarms',
         description:
           "Every time you wake up with an alarm clock, there is a peak load on your cardiovascular system. Don't overload.",
-        source: 'https://pubmed.ncbi.nlm.nih.gov/12531174/',
+        source: 'https://pubmed.ncbi.nlm.nih.gov/15732320/',
       },
       {
         title: "Don't drink alcohol in the afternoon",
