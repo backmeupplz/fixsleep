@@ -18,7 +18,7 @@ function getNavigatorLanguage() {
     )
       .substr(0, 2)
       .toLowerCase()
-    const allowedLanguages = ['en', 'ru']
+    const allowedLanguages = ['en', 'ru', 'ua']
     if (allowedLanguages.indexOf(language) > -1) {
       return language
     } else {

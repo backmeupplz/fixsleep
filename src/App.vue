@@ -4,6 +4,7 @@ v-app
     .max-width
       v-btn(icon, text, @click='setLanguage("en")') 🇺🇸
       v-btn(icon, text, @click='setLanguage("ru")') 🇷🇺
+      v-btn(icon, text, @click='setLanguage("ua")') 🇺🇦
       GradientText {{ $t("mainTitle") }}
       MainSubtitle {{ $t("mainSubtitle") }}
       GradientText(:smaller='true') {{ $t("rulesTitle") }}
