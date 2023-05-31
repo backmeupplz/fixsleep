@@ -19,9 +19,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Updates the compiled code at the `docs` folder to be shown at [fixsleep.link](https://fixsleep.link)
-
-```
-yarn update
-```
