@@ -12,7 +12,7 @@
     "axios": "^0.21.2",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "vue": "^2.6.12",
+    "vue": "^3.0.0",
     "vue-class-component": "^7.2.6",
     "vue-cookie-law": "^1.13.3",
     "vue-facebook-signin-button": "^1.0.1",
