@@ -7912,10 +7912,10 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuetify@^2.4.7:
-  version "2.4.7"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.4.7.tgz#341f16950475466a7fa43f4cb507cc8c3ef170b9"
-  integrity sha512-4RvdZ+BO23fPq8JCEdo9ENjE1AoMqDe1bm+4M57wNTfvW4djScxQnVYeUSE/7PHuzdSW/nROR5oyLQnGDB+DIA==
+vuetify@^3.0.0:
+  version "3.13.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.13.7.tgz#60da404ce36488e4b5337c3510a9cd5448d51d8f"
+  integrity sha512-HJ93r7kPRz9U1Xfd4vqseG1lL98LAG9a25jDZ+P4x9VEmK+ucpbQ56r2tTqeIUlCOxrl3FCmjNYL82WeRtOosA==
 
 vuex-class@^0.3.2:
   version "0.3.2"
